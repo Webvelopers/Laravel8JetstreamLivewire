@@ -718,3 +718,11 @@ Route::group(['middleware' => config('fortify.middleware', ['web'])], function (
     }
 });
 ```
+
+## Install language package
+
+🗔 terminal
+
+```bash
+composer require laravel-lang/lang:^7.0 --dev
+```
