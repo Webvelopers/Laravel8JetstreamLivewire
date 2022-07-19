@@ -726,3 +726,11 @@ Route::group(['middleware' => config('fortify.middleware', ['web'])], function (
 ```bash
 composer require laravel-lang/lang:^7.0 --dev
 ```
+
+## Install CRUD Generator
+
+🗔 terminal
+
+```bash
+composer require webvelopers/laravel-crud-generator --dev
+```
