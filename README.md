@@ -59,3 +59,12 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS="webmaster@webvelopers.net"
 MAIL_FROM_NAME="${APP_NAME}"
 ```
+
+## Config database and migrations
+
+🗔 terminal
+
+```bash
+touch databases/database.sqlite
+php artisan migrate
+```
