@@ -353,3 +353,11 @@ class User extends Authenticatable implements MustVerifyEmail
     ];
 }
 ```
+
+## Customize views
+
+🗔 terminal
+
+```bash
+php artisan vendor:publish --tag=jetstream-views
+```
